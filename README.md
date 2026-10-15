@@ -35,6 +35,9 @@ Hold ⌥ and press Tab for the window switcher, Tab again to move on, and let go
 window. It lists the windows of every desktop, most recently used first, and marks the ones on another desktop,
 minimized or hidden.
 
+Turn on **Vim mode** in the General settings and every card gets a letter: type it to switch, like Vimium's link
+hints. The quick switcher then opens on the letters, with / to search.
+
 ![The window switcher](screenshots/window-switcher.png)
 
 Settings are under menu bar icon > **Manage Workspaces…**: each workspace's layout, shortcut and windows. Finding
