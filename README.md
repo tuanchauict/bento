@@ -1,8 +1,9 @@
-# Oh my windows
+# Bento
 
 A macOS menu bar app that saves groups of windows as **workspaces** and brings a whole workspace forward in one
 step: each window goes back to its position and size, and only those windows are raised, even when an app has many
 others open. It also has an AltTab-style **window switcher** (⌥Tab) for jumping to any window on any desktop.
+Up to 0.2.0 it was called Oh my windows. Updating keeps your workspaces, settings and permissions.
 
 ![The quick switcher: workspaces on top, then every open window](screenshots/quick-switcher.png)
 
@@ -11,10 +12,10 @@ This repository holds the releases only.
 ## Install
 
 ```sh
-brew install --cask tuanchauict/tap/oh-my-windows
+brew install --cask tuanchauict/tap/bento
 ```
 
-Or download the zip from [Releases](../../releases), unzip it and move **Oh my windows.app** to Applications.
+Or download the zip from [Releases](../../releases), unzip it and move **Bento.app** to Applications.
 Needs macOS 14 or later. Builds are signed and notarized, and run on Apple silicon and Intel.
 
 ## Permissions
@@ -35,8 +36,8 @@ Hold ⌥ and press Tab for the window switcher, Tab again to move on, and let go
 window. It lists the windows of every desktop, most recently used first, and marks the ones on another desktop,
 minimized or hidden.
 
-Turn on **Vim mode** in the General settings and every card gets a letter: type it to switch, like Vimium's link
-hints. The quick switcher then opens on the letters, with / to search.
+Click **Letters** on either switcher and every card gets a letter: type it to switch. The quick switcher then opens
+on the letters, with / to search. The gear on the switchers opens their settings.
 
 ![The window switcher](screenshots/window-switcher.png)
 
@@ -49,6 +50,6 @@ private macOS calls as AltTab and yabai do.
 ## Update and uninstall
 
 ```sh
-brew upgrade --cask oh-my-windows
-brew uninstall --cask oh-my-windows          # add --zap to also remove saved workspaces and caches
+brew upgrade --cask bento
+brew uninstall --cask bento    # add --zap to also remove saved workspaces and caches
 ```
